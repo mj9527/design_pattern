@@ -82,7 +82,121 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/abstract_factory/AbstractFactory.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/abstract_factory/AbstractFactory.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/abstract_factory/AbstractProduct.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/abstract_factory/AbstractProduct.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/adaptor/Adaptee.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/adaptor/Adaptee.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/adaptor/Adaptor.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/adaptor/Adaptor.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/adaptor/Target.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/adaptor/Target.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/Abstraction.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/Abstraction.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/AbstractionImp.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/AbstractionImp.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/LinuxAbstractionImp.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/LinuxAbstractionImp.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/WindowsAbstractionImp.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/WindowsAbstractionImp.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/composite/Component.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/composite/Component.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/composite/Composite.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/composite/Composite.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/composite/Leaf.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/composite/Leaf.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/decorate/Decorate.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/decorate/Decorate.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/factory/Factory.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/factory/Factory.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/factory/Product.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/factory/Product.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/flyweight/Flyweight.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/flyweight/Flyweight.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/flyweight/FlyweightFactory.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/flyweight/FlyweightFactory.h">
+			<Option target="design_pattern"/>
+		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/main.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/prototype/Prototype.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/prototype/Prototype.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/singleton/Singleton.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/singleton/Singleton.h">
 			<Option target="design_pattern"/>
 		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/CMakeLists.txt">
