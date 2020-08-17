@@ -13,4 +13,13 @@ add_executable(design_pattern main.cpp
         decorate/Decorate.cpp
         composite/Composite.cpp composite/Component.cpp composite/Leaf.cpp
         flyweight/Flyweight.cpp flyweight/FlyweightFactory.cpp
+        facade/Facade.cpp
+        proxy/Proxy.cpp
+        template/Template.cpp
+        strategy/Context.cpp strategy/Strategy.cpp
+        state/State.cpp state/StateContext.cpp
+        observer/Observer.cpp observer/Subject.cpp
+        memento/Memento.cpp
+        command/Command.cpp command/Invoker.cpp command/Reciever.cpp
+        iterator/Aggregate.cpp iterator/Iterator.cpp
         )
