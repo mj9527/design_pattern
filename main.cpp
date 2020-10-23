@@ -15,6 +15,25 @@
 #include "command/Invoker.h"
 #include "iterator/Aggregate.h"
 
+#include <set>
+#include "mycurl/HttpIml.h"
+
+
+void TestSet()
+{
+    std::set<std::string> s;
+    s.insert("mj");
+    s.insert("mj");
+    s.insert("zheng");
+
+    for (auto& item : s)
+    {
+        std::cout << item << std::endl;
+    }
+
+    std::set<std::string> s1;
+    s1.insert("ok");
+}
 
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
@@ -29,11 +48,21 @@ int main() {
 //    TestTemplate();
 //    TestStrategy();
     //TestState1();
-    TestState1();
-    TestObserver();
-    TestMemento();
-    TestCommand();
-    TestIterator();
+//    TestState1();
+//    TestObserver();
+//    TestMemento();
+//    TestCommand();
+//    TestIterator();
 
+//   TestIterator();
+//
+//   std::string str = "mjzheng";
+//   int i = atoi(str.c_str());
+//   std::cout << "result" <<i << std::endl;
+
+   std::string addr ;
+   GetHttp(addr);
+
+   //TestSet();
     return 0;
 }

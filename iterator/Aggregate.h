@@ -24,6 +24,12 @@ protected:
 
 class ConcreteAggregate : public Aggregate {
 public:
+    ConcreteAggregate() = default;
+
+    ConcreteAggregate(int index);
+
+    ~ConcreteAggregate();
+
     Iterator* CreateIterator();
 
     Object GetItem(int index);
@@ -32,6 +38,7 @@ public:
 
 private:
     Object _objs[3];
+    int _index;
 };
 
 void TestIterator();

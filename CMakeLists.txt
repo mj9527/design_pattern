@@ -3,6 +3,8 @@ project(design_pattern)
 
 set(CMAKE_CXX_STANDARD 11)
 
+include_directories("/Users/mjzheng/Desktop/curl-7.72.0/include/curl/")
+
 add_executable(design_pattern main.cpp
         factory/Factory.cpp factory/Product.cpp
         abstract_factory/AbstractFactory.cpp abstract_factory/AbstractProduct.cpp
@@ -22,4 +24,11 @@ add_executable(design_pattern main.cpp
         memento/Memento.cpp
         command/Command.cpp command/Invoker.cpp command/Reciever.cpp
         iterator/Aggregate.cpp iterator/Iterator.cpp
+        mycurl/HttpImpl.cpp
         )
+
+link_directories("/usr/local/lib")
+
+
+#添加链接库
+target_link_libraries(design_pattern libcurl.a)

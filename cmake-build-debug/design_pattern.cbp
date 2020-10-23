@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/mjzheng/Desktop/curl-7.72.0/include/curl"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -66,6 +67,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/mjzheng/Desktop/curl-7.72.0/include/curl"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -136,6 +138,24 @@
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/bridge/WindowsAbstractionImp.h">
 			<Option target="design_pattern"/>
 		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/command/Command.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/command/Command.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/command/Invoker.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/command/Invoker.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/command/Reciever.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/command/Reciever.h">
+			<Option target="design_pattern"/>
+		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/composite/Component.cpp">
 			<Option target="design_pattern"/>
 		</Unit>
@@ -158,6 +178,12 @@
 			<Option target="design_pattern"/>
 		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/decorate/Decorate.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/facade/Facade.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/facade/Facade.h">
 			<Option target="design_pattern"/>
 		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/factory/Factory.cpp">
@@ -184,7 +210,40 @@
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/flyweight/FlyweightFactory.h">
 			<Option target="design_pattern"/>
 		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/iterator/Aggregate.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/iterator/Aggregate.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/iterator/Iterator.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/iterator/Iterator.h">
+			<Option target="design_pattern"/>
+		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/main.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/memento/Memento.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/memento/Memento.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/mycurl/HttpImpl.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/observer/Observer.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/observer/Observer.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/observer/Subject.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/observer/Subject.h">
 			<Option target="design_pattern"/>
 		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/prototype/Prototype.cpp">
@@ -193,10 +252,46 @@
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/prototype/Prototype.h">
 			<Option target="design_pattern"/>
 		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/proxy/Proxy.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/proxy/Proxy.h">
+			<Option target="design_pattern"/>
+		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/singleton/Singleton.cpp">
 			<Option target="design_pattern"/>
 		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/singleton/Singleton.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/state/State.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/state/State.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/state/StateContext.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/state/StateContext.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/strategy/Context.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/strategy/Context.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/strategy/Strategy.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/strategy/Strategy.h">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/template/Template.cpp">
+			<Option target="design_pattern"/>
+		</Unit>
+		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/template/Template.h">
 			<Option target="design_pattern"/>
 		</Unit>
 		<Unit filename="/Users/mjzheng/Documents/mj_git/design_pattern/CMakeLists.txt">
